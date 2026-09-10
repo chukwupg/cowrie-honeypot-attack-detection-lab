@@ -273,7 +273,9 @@ honeypot-attack-detection/
 │   ├── service_scan.txt
 │   ├── os_scan.txt
 │   ├── script_scan.txt
-│   └── full_scan.nmap / .xml / .gnmap
+|   ├── full_scan.nmap
+|   ├── full_scan.gnmap
+│   └── full_scan.xml
 ├── pcap/
 │   └── honeypot_capture.pcap
 ├── logs/

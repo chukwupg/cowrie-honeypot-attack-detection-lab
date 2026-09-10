@@ -1,4 +1,4 @@
-# Network Attack Detection & Reporting (Honeypot Lab)
+# Cowrie Honeypot Attack Detection & Reporting
 
 ## Project Overview
 This project demonstrates a simulated cyber attack on a honeypot environment and the process of detecting, capturing, and analyzing malicious activity.

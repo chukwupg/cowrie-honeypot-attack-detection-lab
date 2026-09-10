@@ -1,4 +1,4 @@
-# Network Attack Detection & Reporting (Honeypot Lab)
+# Cowrie Honeypot Attack Detection & Reporting
 
 ## Project Overview
 This project demonstrates a simulated cyber attack on a honeypot environment and the process of detecting, capturing, and analyzing malicious activity.
@@ -273,7 +273,9 @@ honeypot-attack-detection/
 │   ├── service_scan.txt
 │   ├── os_scan.txt
 │   ├── script_scan.txt
-│   └── full_scan.nmap / .xml / .gnmap
+|   ├── full_scan.nmap
+|   ├── full_scan.gnmap
+│   └── full_scan.xml
 ├── pcap/
 │   └── honeypot_capture.pcap
 ├── logs/
@@ -304,3 +306,8 @@ This lab was performed entirely within an isolated, non-internet-facing virtual 
 
 ---
 
+## Author
+
+**CHUKWU PRAISEGOD**  
+
+**Follow my journey: [X](https://x.com/chukwupg) | [LinkedIn](https://linkedin.com/in/chukwupg)**

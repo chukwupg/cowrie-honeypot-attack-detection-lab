@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Thu Sep 10 09:22:34 2026 as: nmap -sC -sV -oN script_scan.txt 192.168.72.10
+Nmap scan report for 192.168.72.10
+Host is up (0.0031s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 10.2p1 Ubuntu 2ubuntu3.6 (Ubuntu Linux; protocol 2.0)
+2222/tcp open  ssh     OpenSSH 9.2p1 Debian 2+deb12u3 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 28:5d:19:c0:2e:93:9d:b4:c4:72:51:d6:a1:8f:ff:50 (RSA)
+|   256 bc:a1:c0:be:84:bd:59:ab:9e:6f:7f:c4:99:de:9b:a8 (ECDSA)
+|_  256 6e:2e:8b:31:ce:44:d7:b0:49:35:d3:24:c1:59:d9:ee (ED25519)
+MAC Address: 00:0C:29:D0:AA:1B (VMware)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Sep 10 09:22:49 2026 -- 1 IP address (1 host up) scanned in 14.70 seconds

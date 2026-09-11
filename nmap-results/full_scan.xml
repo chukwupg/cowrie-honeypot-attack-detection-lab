@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Thu Sep 10 09:24:58 2026 as: nmap -A -p- -oA full_scan 192.168.72.10 -->
+<nmaprun scanner="nmap" args="nmap -A -p- -oA full_scan 192.168.72.10" start="1789028698" startstr="Thu Sep 10 09:24:58 2026" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.72.10" addrtype="ipv4"/>
+<address addr="00:0C:29:D0:AA:1B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1789028712" endtime="1789028733"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.72.10" addrtype="ipv4"/>
+<address addr="00:0C:29:D0:AA:1B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="reset" count="65533" proto="tcp" ports="1-21,23-2221,2223-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="10.2p1 Ubuntu 2ubuntu3.6" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:10.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="2222"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="9.2p1 Debian 2+deb12u3" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:9.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 28:5d:19:c0:2e:93:9d:b4:c4:72:51:d6:a1:8f:ff:50 (RSA)&#xa;  256 bc:a1:c0:be:84:bd:59:ab:9e:6f:7f:c4:99:de:9b:a8 (ECDSA)&#xa;  256 6e:2e:8b:31:ce:44:d7:b0:49:35:d3:24:c1:59:d9:ee (ED25519)"><table>
+<elem key="fingerprint">285d19c02e939db4c47251d6a18fff50</elem>
+<elem key="bits">2048</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDs4/UiYfCMu7pOfbKWSAoKPNlTNY+az2kJbNVGW44x+E9WCegoNVseQQaOzskqR/wX+n0LC3zJloEiNkhw9SrpXn3Z2q5zzYUw3ksnBHyqqHJVQzgCElzv5JJmsx9qs1VakAJPRhJ0JOQdEOxAwUwVtvzIwQHQVAxnD7gr8xoD68tBlaiKGHQb0YZ3vo/ZuQpJul07/2es43vQcvM7ZZL6ZjklWg3q9j064jnB3h/oZv6E7/HAWs4H1JucqJs1c7PZNI3ygPKrBMRCLWKjbC6yPLKmV4/rbWrJp+AUG44yp9LfVyQZjrNfnKh44xuLEsYBfAtXLPpzUCjlOsoG4Zm5</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+<table>
+<elem key="fingerprint">bca1c0be84bd59ab9e6f7fc499de9ba8</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIMGW/8MzY5wuFklucg8mooqhwQbE0eeTAaxrLBvoV3paNlvVRNnINn7oiSHFjEE3+cJxWbdxuqu/gX0qYL96rg=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="fingerprint">6e2e8b31ce44d7b04935d324c159d9ee</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOSRv6k7KvEOkMUAScN/+5uIHrhZGdRcb1KcMbIwsqYk</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="40702"/>
+<osmatch name="Linux 4.15 - 5.19" accuracy="97" line="70534">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="Google Chromecast with Google TV (Android 10, Linux 4.9)" accuracy="93" line="32679">
+<osclass type="media device" vendor="Google" osfamily="Android" osgen="10.X" accuracy="93"><cpe>cpe:/o:google:android:10</cpe></osclass>
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+<osmatch name="Android 5 - 10 (Linux 3.4 - 3.18)" accuracy="93" line="33753">
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="5.X" accuracy="93"><cpe>cpe:/o:google:android:5</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="6.X" accuracy="93"><cpe>cpe:/o:google:android:6</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="7.X" accuracy="93"><cpe>cpe:/o:google:android:7</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="8.X" accuracy="93"><cpe>cpe:/o:google:android:8</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="10.X" accuracy="93"><cpe>cpe:/o:google:android:10</cpe></osclass>
+<osclass type="phone" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="93" line="58659">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Android 10 - 12 (Linux 4.14 - 4.19)" accuracy="93" line="71590">
+<osclass type="phone" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="10.X" accuracy="93"><cpe>cpe:/o:google:android:10</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="11.X" accuracy="93"><cpe>cpe:/o:google:android:11</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="12.X" accuracy="93"><cpe>cpe:/o:google:android:12</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 5.10 - 5.19" accuracy="93" line="71961">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.14" accuracy="93" line="68432">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 5.4 - 5.10" accuracy="93" line="72380">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt 21.02 (Linux 5.4)" accuracy="93" line="72530">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:5.4</cpe></osclass>
+</osmatch>
+<osmatch name="MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)" accuracy="93" line="91792">
+<osclass type="router" vendor="MikroTik" osfamily="RouterOS" osgen="7.X" accuracy="93"><cpe>cpe:/o:mikrotik:routeros:7</cpe></osclass>
+<osclass type="router" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:5.6.3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.95%E=4%D=9/10%OT=22%CT=1%CU=40702%PV=Y%DS=1%DC=D%G=Y%M=000C29%T&#xa;OS:M=6AA2697D%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=10B%TI=Z%CI=Z%II=I&#xa;OS:%TS=22)SEQ(SP=101%GCD=1%ISR=10D%TI=Z%CI=Z%TS=21)SEQ(SP=104%GCD=3%ISR=10D&#xa;OS:%TI=Z%CI=Z%II=I%TS=22)SEQ(SP=107%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=21)SEQ(&#xa;OS:SP=FB%GCD=1%ISR=10C%TI=Z%CI=Z%TS=21)OPS(O1=M5B4ST11NW8%O2=M5B4ST11NW8%O3&#xa;OS:=M5B4NNT11NW8%O4=M5B4ST11NW8%O5=M5B4ST11NW8%O6=M5B4ST11)WIN(W1=FE88%W2=F&#xa;OS:E88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M5B4NNSNW&#xa;OS:8%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF&#xa;OS:=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=&#xa;OS:%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=&#xa;OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI&#xa;OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="15" lastboot="Thu Sep 10 09:25:18 2026"/>
+<distance value="1"/>
+<tcpsequence index="260" difficulty="Good luck!" values="A6D95E39,17B5677,A97985ED,4FA76255,3D990488,B33CB10D"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="A753EF1A,5778D49,9A522B35,CC221DD8,35D08DDC,136ED161"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.72.10" rtt="0.94"/>
+</trace>
+<times srtt="944" rttvar="410" to="100000"/>
+</host>
+<runstats><finished time="1789028733" timestr="Thu Sep 10 09:25:33 2026" summary="Nmap done at Thu Sep 10 09:25:33 2026; 1 IP address (1 host up) scanned in 34.35 seconds" elapsed="34.35" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

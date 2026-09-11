@@ -1,0 +1,27 @@
+# Nmap 7.95 scan initiated Thu Sep 10 09:21:10 2026 as: nmap -O -oN os_scan.txt 192.168.72.10
+Nmap scan report for 192.168.72.10
+Host is up (0.0013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+2222/tcp open  EtherNetIP-1
+MAC Address: 00:0C:29:D0:AA:1B (VMware)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=9/10%OT=22%CT=1%CU=42398%PV=Y%DS=1%DC=D%G=Y%M=000C29%T
+OS:M=6AA2688F%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=10C%TI=Z%CI=Z%II=I
+OS:%TS=22)SEQ(SP=101%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=21)SEQ(SP=104%GCD=1%IS
+OS:R=10C%TI=Z%CI=Z%TS=21)SEQ(SP=106%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=21)SEQ(
+OS:SP=108%GCD=1%ISR=104%TI=Z%CI=Z%TS=21)OPS(O1=M5B4ST11NW8%O2=M5B4ST11NW8%O
+OS:3=M5B4NNT11NW8%O4=M5B4ST11NW8%O5=M5B4ST11NW8%O6=M5B4ST11)WIN(W1=FE88%W2=
+OS:FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M5B4NNSN
+OS:W8%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Sep 10 09:21:35 2026 -- 1 IP address (1 host up) scanned in 24.62 seconds

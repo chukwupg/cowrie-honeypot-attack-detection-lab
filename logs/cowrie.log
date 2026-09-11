@@ -1,0 +1,267 @@
+2026-09-10T07:04:33.100031Z [cowrie.core.config#info] Reading configuration from ['etc/cowrie.cfg']
+2026-09-10T07:04:33.318130Z [cowrie.plugin#info] Python Version 3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]
+2026-09-10T07:04:33.318160Z [cowrie.plugin#info] Twisted Version 26.4.0
+2026-09-10T07:04:33.318170Z [cowrie.plugin#info] Cowrie Version 3.0.13
+2026-09-10T07:04:33.318177Z [cowrie.plugin#info] Sensor UUID: e01d73e0-ace5-11f1-b1c5-000c29d0aa1b
+2026-09-10T07:04:33.318899Z [cowrie.core.output#info] Loaded output engine: jsonlog
+2026-09-10T07:04:33.320207Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 26.4.0 (/home/cowrie/cowrie/cowrie-env/bin/python3 3.14.4) starting up.
+2026-09-10T07:04:33.320289Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-09-10T07:04:33.329059Z [-] CowrieSSHFactory starting on 2222
+2026-09-10T07:04:33.330035Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7b4f4c3fa7b0>
+2026-09-10T07:04:33.416134Z [cowrie.ssh.factory.CowrieSSHFactory#info] Ready to accept SSH connections
+2026-09-10T08:13:11.683595Z [cowrie.core.config#info] Reading configuration from ['etc/cowrie.cfg']
+2026-09-10T08:13:12.553530Z [cowrie.plugin#info] Python Version 3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]
+2026-09-10T08:13:12.553560Z [cowrie.plugin#info] Twisted Version 26.4.0
+2026-09-10T08:13:12.553614Z [cowrie.plugin#info] Cowrie Version 3.0.13
+2026-09-10T08:13:12.553627Z [cowrie.plugin#info] Sensor UUID: e01d73e0-ace5-11f1-b1c5-000c29d0aa1b
+2026-09-10T08:13:12.557830Z [cowrie.core.output#info] Loaded output engine: jsonlog
+2026-09-10T08:13:12.566215Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 26.4.0 (/home/cowrie/cowrie/cowrie-env/bin/python3 3.14.4) starting up.
+2026-09-10T08:13:12.566977Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-09-10T08:13:12.632962Z [-] CowrieSSHFactory starting on 2222
+2026-09-10T08:13:12.640749Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7ef53b234980>
+2026-09-10T08:13:12.745378Z [cowrie.ssh.factory.CowrieSSHFactory#info] Ready to accept SSH connections
+2026-09-10T08:15:46.449230Z [twisted.internet.base#info] Received SIGTERM, shutting down.
+2026-09-10T08:15:46.453343Z [-] (TCP Port 2222 Closed)
+2026-09-10T08:15:46.453618Z [cowrie.ssh.factory.CowrieSSHFactory#info] Stopping factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7ef53b234980>
+2026-09-10T08:15:46.454002Z [twisted.internet.base#info] Main loop terminated.
+2026-09-10T08:15:46.455308Z [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2026-09-10T08:16:37.115360Z [cowrie.core.config#info] Reading configuration from ['etc/cowrie.cfg']
+2026-09-10T08:16:37.274736Z [cowrie.plugin#info] Python Version 3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]
+2026-09-10T08:16:37.274761Z [cowrie.plugin#info] Twisted Version 26.4.0
+2026-09-10T08:16:37.274776Z [cowrie.plugin#info] Cowrie Version 3.0.13
+2026-09-10T08:16:37.274782Z [cowrie.plugin#info] Sensor UUID: e01d73e0-ace5-11f1-b1c5-000c29d0aa1b
+2026-09-10T08:16:37.275337Z [cowrie.core.output#info] Loaded output engine: jsonlog
+2026-09-10T08:16:37.277222Z [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 26.4.0 (/home/cowrie/cowrie/cowrie-env/bin/python3 3.14.4) starting up.
+2026-09-10T08:16:37.277287Z [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-09-10T08:16:37.286762Z [-] CowrieSSHFactory starting on 2222
+2026-09-10T08:16:37.287876Z [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory object at 0x7f4dcff18980>
+2026-09-10T08:16:37.331033Z [cowrie.ssh.factory.CowrieSSHFactory#info] Ready to accept SSH connections
+2026-09-10T08:18:38.716846Z [ssh,f40c86fbacf5,192.168.72.11] New connection: 192.168.72.11:49750 (192.168.72.10:2222) [session: f40c86fbacf5]
+2026-09-10T08:18:38.721684Z [HoneyPotSSHTransport,0,192.168.72.11] connection lost
+2026-09-10T08:18:38.723593Z [ssh,f40c86fbacf5,192.168.72.11] Connection lost after 6 milliseconds
+2026-09-10T08:19:03.459566Z [ssh,bf78234efaaa,192.168.72.11] New connection: 192.168.72.11:52294 (192.168.72.10:2222) [session: bf78234efaaa]
+2026-09-10T08:19:03.460999Z [HoneyPotSSHTransport,1,192.168.72.11] connection lost
+2026-09-10T08:19:03.462094Z [ssh,bf78234efaaa,192.168.72.11] Connection lost after 1 milliseconds
+2026-09-10T08:19:03.614594Z [ssh,504a9fa5ac2b,192.168.72.11] New connection: 192.168.72.11:52308 (192.168.72.10:2222) [session: 504a9fa5ac2b]
+2026-09-10T08:19:03.671394Z [HoneyPotSSHTransport,2,192.168.72.11] connection lost
+2026-09-10T08:19:03.671655Z [ssh,504a9fa5ac2b,192.168.72.11] Connection lost after 57 milliseconds
+2026-09-10T08:22:50.764200Z [ssh,fd6ffce070ee,192.168.72.11] New connection: 192.168.72.11:58440 (192.168.72.10:2222) [session: fd6ffce070ee]
+2026-09-10T08:22:50.949461Z [HoneyPotSSHTransport,3,192.168.72.11] connection lost
+2026-09-10T08:22:50.951859Z [ssh,fd6ffce070ee,192.168.72.11] Connection lost after 181 milliseconds
+2026-09-10T08:22:50.996023Z [ssh,efba3bb50ab9,192.168.72.11] New connection: 192.168.72.11:58456 (192.168.72.10:2222) [session: efba3bb50ab9]
+2026-09-10T08:22:50.997042Z [ssh,1c84c459721b,192.168.72.11] New connection: 192.168.72.11:58460 (192.168.72.10:2222) [session: 1c84c459721b]
+2026-09-10T08:22:51.024243Z [ssh,efba3bb50ab9,192.168.72.11] Remote SSH version: SSH-1.5-Nmap-SSH1-Hostkey
+2026-09-10T08:22:51.035387Z [HoneyPotSSHTransport,4,192.168.72.11] connection lost
+2026-09-10T08:22:51.036836Z [ssh,efba3bb50ab9,192.168.72.11] Connection lost after 39 milliseconds
+2026-09-10T08:22:51.037243Z [ssh,1c84c459721b,192.168.72.11] Remote SSH version: SSH-1.5-NmapNSE_1.0
+2026-09-10T08:22:51.037669Z [HoneyPotSSHTransport,5,192.168.72.11] connection lost
+2026-09-10T08:22:51.038069Z [ssh,1c84c459721b,192.168.72.11] Connection lost after 41 milliseconds
+2026-09-10T08:22:51.042154Z [ssh,8c28c71f30f3,192.168.72.11] New connection: 192.168.72.11:58464 (192.168.72.10:2222) [session: 8c28c71f30f3]
+2026-09-10T08:22:51.059639Z [ssh,8c28c71f30f3,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:22:51.072660Z [ssh,8c28c71f30f3,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:22:51.073121Z [HoneyPotSSHTransport,6,192.168.72.11] Disconnecting with error, code 3
+	reason: b"couldn't match all kex parts"
+2026-09-10T08:22:51.075023Z [HoneyPotSSHTransport,6,192.168.72.11] connection lost
+2026-09-10T08:22:51.075405Z [ssh,8c28c71f30f3,192.168.72.11] Connection lost after 33 milliseconds
+2026-09-10T08:22:51.107802Z [ssh,6f1f6470d791,192.168.72.11] New connection: 192.168.72.11:58480 (192.168.72.10:2222) [session: 6f1f6470d791]
+2026-09-10T08:22:51.125915Z [ssh,6f1f6470d791,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:22:51.126715Z [ssh,6f1f6470d791,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:22:51.146061Z [HoneyPotSSHTransport,7,192.168.72.11] /home/cowrie/cowrie/cowrie-env/lib/python3.14/site-packages/twisted/conch/ssh/transport.py:1151: cryptography.utils.CryptographyDeprecationWarning: Diffie-Hellman over finite fields (FFDH) is deprecated and support will be removed in a future release. Use a more modern key exchange algorithm.
+2026-09-10T08:22:51.150499Z [HoneyPotSSHTransport,7,192.168.72.11] /home/cowrie/cowrie/cowrie-env/lib/python3.14/site-packages/twisted/conch/ssh/transport.py:1168: cryptography.utils.CryptographyDeprecationWarning: Diffie-Hellman over finite fields (FFDH) is deprecated and support will be removed in a future release. Use a more modern key exchange algorithm.
+2026-09-10T08:22:51.150826Z [HoneyPotSSHTransport,7,192.168.72.11] /home/cowrie/cowrie/cowrie-env/lib/python3.14/site-packages/twisted/conch/ssh/transport.py:1169: cryptography.utils.CryptographyDeprecationWarning: Diffie-Hellman over finite fields (FFDH) is deprecated and support will be removed in a future release. Use a more modern key exchange algorithm.
+2026-09-10T08:22:51.164485Z [HoneyPotSSHTransport,7,192.168.72.11] connection lost
+2026-09-10T08:22:51.165381Z [ssh,6f1f6470d791,192.168.72.11] Connection lost after 57 milliseconds
+2026-09-10T08:22:51.171574Z [ssh,e7c72f7b7d69,192.168.72.11] New connection: 192.168.72.11:58482 (192.168.72.10:2222) [session: e7c72f7b7d69]
+2026-09-10T08:22:51.176514Z [ssh,e7c72f7b7d69,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:22:51.191236Z [ssh,e7c72f7b7d69,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:22:51.235615Z [HoneyPotSSHTransport,8,192.168.72.11] connection lost
+2026-09-10T08:22:51.236289Z [ssh,e7c72f7b7d69,192.168.72.11] Connection lost after 64 milliseconds
+2026-09-10T08:22:51.236924Z [ssh,cf9833806750,192.168.72.11] New connection: 192.168.72.11:58492 (192.168.72.10:2222) [session: cf9833806750]
+2026-09-10T08:22:51.241575Z [ssh,cf9833806750,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:22:51.251518Z [ssh,cf9833806750,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:22:51.251720Z [HoneyPotSSHTransport,9,192.168.72.11] Disconnecting with error, code 3
+	reason: b"couldn't match all kex parts"
+2026-09-10T08:22:51.252199Z [HoneyPotSSHTransport,9,192.168.72.11] connection lost
+2026-09-10T08:22:51.252738Z [ssh,cf9833806750,192.168.72.11] Connection lost after 15 milliseconds
+2026-09-10T08:22:51.258237Z [ssh,bf93edcd6825,192.168.72.11] New connection: 192.168.72.11:58508 (192.168.72.10:2222) [session: bf93edcd6825]
+2026-09-10T08:22:51.268964Z [ssh,bf93edcd6825,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:22:51.282750Z [ssh,bf93edcd6825,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:22:51.283156Z [HoneyPotSSHTransport,10,192.168.72.11] Disconnecting with error, code 3
+	reason: b"couldn't match all kex parts"
+2026-09-10T08:22:51.284629Z [HoneyPotSSHTransport,10,192.168.72.11] connection lost
+2026-09-10T08:22:51.285018Z [ssh,bf93edcd6825,192.168.72.11] Connection lost after 26 milliseconds
+2026-09-10T08:22:51.288294Z [ssh,86195a1d749f,192.168.72.11] New connection: 192.168.72.11:58514 (192.168.72.10:2222) [session: 86195a1d749f]
+2026-09-10T08:22:51.308650Z [ssh,86195a1d749f,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:22:51.310008Z [ssh,86195a1d749f,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:22:51.363508Z [HoneyPotSSHTransport,11,192.168.72.11] connection lost
+2026-09-10T08:22:51.364478Z [ssh,86195a1d749f,192.168.72.11] Connection lost after 76 milliseconds
+2026-09-10T08:25:23.425277Z [ssh,b8351cccef0a,192.168.72.11] New connection: 192.168.72.11:52556 (192.168.72.10:2222) [session: b8351cccef0a]
+2026-09-10T08:25:23.648408Z [HoneyPotSSHTransport,12,192.168.72.11] connection lost
+2026-09-10T08:25:23.650549Z [ssh,b8351cccef0a,192.168.72.11] Connection lost after 224 milliseconds
+2026-09-10T08:25:34.892580Z [ssh,2ac7a237acf7,192.168.72.11] New connection: 192.168.72.11:57922 (192.168.72.10:2222) [session: 2ac7a237acf7]
+2026-09-10T08:25:34.894009Z [ssh,9033b762ee25,192.168.72.11] New connection: 192.168.72.11:57936 (192.168.72.10:2222) [session: 9033b762ee25]
+2026-09-10T08:25:34.922952Z [ssh,2ac7a237acf7,192.168.72.11] Remote SSH version: SSH-1.5-Nmap-SSH1-Hostkey
+2026-09-10T08:25:34.924423Z [HoneyPotSSHTransport,13,192.168.72.11] connection lost
+2026-09-10T08:25:34.925229Z [ssh,2ac7a237acf7,192.168.72.11] Connection lost after 32 milliseconds
+2026-09-10T08:25:34.925960Z [ssh,9033b762ee25,192.168.72.11] Remote SSH version: SSH-1.5-NmapNSE_1.0
+2026-09-10T08:25:34.926703Z [HoneyPotSSHTransport,14,192.168.72.11] connection lost
+2026-09-10T08:25:34.927413Z [ssh,9033b762ee25,192.168.72.11] Connection lost after 33 milliseconds
+2026-09-10T08:25:34.934209Z [ssh,6025d1f0ca8e,192.168.72.11] New connection: 192.168.72.11:57950 (192.168.72.10:2222) [session: 6025d1f0ca8e]
+2026-09-10T08:25:34.950421Z [ssh,6025d1f0ca8e,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:25:34.952530Z [ssh,6025d1f0ca8e,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:25:34.952741Z [HoneyPotSSHTransport,15,192.168.72.11] Disconnecting with error, code 3
+	reason: b"couldn't match all kex parts"
+2026-09-10T08:25:34.953233Z [HoneyPotSSHTransport,15,192.168.72.11] connection lost
+2026-09-10T08:25:34.953536Z [ssh,6025d1f0ca8e,192.168.72.11] Connection lost after 19 milliseconds
+2026-09-10T08:25:34.964577Z [ssh,ea1ac6535c0b,192.168.72.11] New connection: 192.168.72.11:57960 (192.168.72.10:2222) [session: ea1ac6535c0b]
+2026-09-10T08:25:34.978580Z [ssh,ea1ac6535c0b,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:25:34.981889Z [ssh,ea1ac6535c0b,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:25:35.028158Z [HoneyPotSSHTransport,16,192.168.72.11] connection lost
+2026-09-10T08:25:35.028604Z [ssh,ea1ac6535c0b,192.168.72.11] Connection lost after 64 milliseconds
+2026-09-10T08:25:35.029712Z [ssh,cba3d2dfd937,192.168.72.11] New connection: 192.168.72.11:57966 (192.168.72.10:2222) [session: cba3d2dfd937]
+2026-09-10T08:25:35.035203Z [ssh,cba3d2dfd937,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:25:35.045104Z [ssh,cba3d2dfd937,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:25:35.090380Z [HoneyPotSSHTransport,17,192.168.72.11] connection lost
+2026-09-10T08:25:35.090887Z [ssh,cba3d2dfd937,192.168.72.11] Connection lost after 61 milliseconds
+2026-09-10T08:25:35.093203Z [ssh,7923f7b7441e,192.168.72.11] New connection: 192.168.72.11:57970 (192.168.72.10:2222) [session: 7923f7b7441e]
+2026-09-10T08:25:35.096483Z [ssh,7923f7b7441e,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:25:35.105631Z [ssh,7923f7b7441e,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:25:35.105809Z [HoneyPotSSHTransport,18,192.168.72.11] Disconnecting with error, code 3
+	reason: b"couldn't match all kex parts"
+2026-09-10T08:25:35.106117Z [HoneyPotSSHTransport,18,192.168.72.11] connection lost
+2026-09-10T08:25:35.106290Z [ssh,7923f7b7441e,192.168.72.11] Connection lost after 13 milliseconds
+2026-09-10T08:25:35.113156Z [ssh,7dae28afd559,192.168.72.11] New connection: 192.168.72.11:57972 (192.168.72.10:2222) [session: 7dae28afd559]
+2026-09-10T08:25:35.121281Z [ssh,7dae28afd559,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:25:35.133597Z [ssh,7dae28afd559,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:25:35.133949Z [HoneyPotSSHTransport,19,192.168.72.11] Disconnecting with error, code 3
+	reason: b"couldn't match all kex parts"
+2026-09-10T08:25:35.134511Z [HoneyPotSSHTransport,19,192.168.72.11] connection lost
+2026-09-10T08:25:35.135032Z [ssh,7dae28afd559,192.168.72.11] Connection lost after 22 milliseconds
+2026-09-10T08:25:35.137916Z [ssh,2948fa18fb50,192.168.72.11] New connection: 192.168.72.11:57988 (192.168.72.10:2222) [session: 2948fa18fb50]
+2026-09-10T08:25:35.148180Z [ssh,2948fa18fb50,192.168.72.11] Remote SSH version: SSH-2.0-Nmap-SSH2-Hostkey
+2026-09-10T08:25:35.149264Z [ssh,2948fa18fb50,192.168.72.11] SSH client hassh fingerprint: e788c657d1a22971d5026526ffd2e918
+2026-09-10T08:25:35.194202Z [HoneyPotSSHTransport,20,192.168.72.11] connection lost
+2026-09-10T08:25:35.194748Z [ssh,2948fa18fb50,192.168.72.11] Connection lost after 56 milliseconds
+2026-09-10T08:30:13.844381Z [ssh,558283447e8a,192.168.72.11] New connection: 192.168.72.11:50888 (192.168.72.10:2222) [session: 558283447e8a]
+2026-09-10T08:30:13.845011Z [ssh,558283447e8a,192.168.72.11] Remote SSH version: SSH-2.0-OpenSSH_10.3p1 Debian-4
+2026-09-10T08:30:13.847249Z [ssh,558283447e8a,192.168.72.11] SSH client hassh fingerprint: eeca2460550b9ded084ecf2f70a75356
+2026-09-10T08:30:27.267296Z [ssh,558283447e8a,192.168.72.11] login attempt [root/admin123] succeeded
+2026-09-10T08:30:27.267562Z [HoneyPotSSHTransport,21,192.168.72.11] Initialized emulated server as architecture: linux-x64-lsb
+2026-09-10T08:30:27.270987Z [HoneyPotSSHTransport,21,192.168.72.11] channel open
+2026-09-10T08:30:27.279822Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,21,192.168.72.11] Handling pty request: b'xterm-256color' (47, 132, 0, 0)
+2026-09-10T08:30:27.280295Z [ssh,558283447e8a,192.168.72.11] Terminal Size: 132 47
+2026-09-10T08:30:27.280915Z [ssh,558283447e8a,192.168.72.11] request_env: COLORTERM=truecolor
+2026-09-10T08:30:27.281546Z [ssh,558283447e8a,192.168.72.11] request_env: LANG=en_US.UTF-8
+2026-09-10T08:30:27.281921Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,21,192.168.72.11] Getting shell
+2026-09-10T08:30:39.277583Z [ssh,558283447e8a,192.168.72.11] CMD: exit
+2026-09-10T08:30:39.283414Z [HoneyPotSSHTransport,21,192.168.72.11] Command found: exit 
+2026-09-10T08:30:39.284136Z [HoneyPotSSHTransport,21,192.168.72.11] exitCode: 0
+2026-09-10T08:30:39.289741Z [ssh,558283447e8a,192.168.72.11] Closing TTY Log: var/lib/cowrie/tty/2b709b443cc16cfab36eceabaec6a5c03116fbf3cea013e6ca7448229e1b4300 after 12007 milliseconds
+2026-09-10T08:30:39.290018Z [HoneyPotSSHTransport,21,192.168.72.11] sending close 0
+2026-09-10T08:30:39.291498Z [HoneyPotSSHTransport,21,192.168.72.11] remote close
+2026-09-10T08:30:39.291941Z [HoneyPotSSHTransport,21,192.168.72.11] Got remote error, code 11 reason: b'disconnected by user'
+2026-09-10T08:30:39.292424Z [HoneyPotSSHTransport,21,192.168.72.11] avatar root logging out
+2026-09-10T08:30:39.292783Z [HoneyPotSSHTransport,21,192.168.72.11] connection lost
+2026-09-10T08:30:39.293165Z [ssh,558283447e8a,192.168.72.11] Connection lost after 25448 milliseconds
+2026-09-10T08:30:52.506894Z [ssh,94a62ed36f89,192.168.72.11] New connection: 192.168.72.11:40000 (192.168.72.10:2222) [session: 94a62ed36f89]
+2026-09-10T08:30:52.508395Z [ssh,94a62ed36f89,192.168.72.11] Remote SSH version: SSH-2.0-OpenSSH_10.3p1 Debian-4
+2026-09-10T08:30:52.510205Z [ssh,94a62ed36f89,192.168.72.11] SSH client hassh fingerprint: eeca2460550b9ded084ecf2f70a75356
+2026-09-10T08:30:55.052914Z [ssh,94a62ed36f89,192.168.72.11] login attempt [root/toor] succeeded
+2026-09-10T08:30:55.053122Z [HoneyPotSSHTransport,22,192.168.72.11] Initialized emulated server as architecture: linux-x64-lsb
+2026-09-10T08:30:55.054638Z [HoneyPotSSHTransport,22,192.168.72.11] channel open
+2026-09-10T08:30:55.056945Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,22,192.168.72.11] Handling pty request: b'xterm-256color' (47, 132, 0, 0)
+2026-09-10T08:30:55.057236Z [ssh,94a62ed36f89,192.168.72.11] Terminal Size: 132 47
+2026-09-10T08:30:55.059076Z [ssh,94a62ed36f89,192.168.72.11] request_env: COLORTERM=truecolor
+2026-09-10T08:30:55.059587Z [ssh,94a62ed36f89,192.168.72.11] request_env: LANG=en_US.UTF-8
+2026-09-10T08:30:55.059804Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,22,192.168.72.11] Getting shell
+2026-09-10T08:30:57.332475Z [ssh,94a62ed36f89,192.168.72.11] CMD: ls
+2026-09-10T08:30:57.335789Z [HoneyPotSSHTransport,22,192.168.72.11] Command found: ls 
+2026-09-10T08:30:59.908132Z [ssh,94a62ed36f89,192.168.72.11] CMD: exit
+2026-09-10T08:30:59.910209Z [HoneyPotSSHTransport,22,192.168.72.11] Command found: exit 
+2026-09-10T08:30:59.910582Z [HoneyPotSSHTransport,22,192.168.72.11] exitCode: 0
+2026-09-10T08:30:59.911120Z [ssh,94a62ed36f89,192.168.72.11] Closing TTY Log: var/lib/cowrie/tty/b373fccc4859a5456245f7245d53feb68592a9179d484bf04fe49865919c9b05 after 4851 milliseconds
+2026-09-10T08:30:59.911248Z [HoneyPotSSHTransport,22,192.168.72.11] sending close 0
+2026-09-10T08:30:59.913473Z [HoneyPotSSHTransport,22,192.168.72.11] remote close
+2026-09-10T08:30:59.913841Z [HoneyPotSSHTransport,22,192.168.72.11] Got remote error, code 11 reason: b'disconnected by user'
+2026-09-10T08:30:59.914260Z [HoneyPotSSHTransport,22,192.168.72.11] avatar root logging out
+2026-09-10T08:30:59.914447Z [HoneyPotSSHTransport,22,192.168.72.11] connection lost
+2026-09-10T08:30:59.914744Z [ssh,94a62ed36f89,192.168.72.11] Connection lost after 7407 milliseconds
+2026-09-10T08:31:13.484631Z [ssh,f7087a55a1c8,192.168.72.11] New connection: 192.168.72.11:58752 (192.168.72.10:2222) [session: f7087a55a1c8]
+2026-09-10T08:31:13.484905Z [ssh,f7087a55a1c8,192.168.72.11] Remote SSH version: SSH-2.0-OpenSSH_10.3p1 Debian-4
+2026-09-10T08:31:13.488351Z [ssh,f7087a55a1c8,192.168.72.11] SSH client hassh fingerprint: eeca2460550b9ded084ecf2f70a75356
+2026-09-10T08:31:30.943110Z [ssh,f7087a55a1c8,192.168.72.11] login attempt [admin/12345] succeeded
+2026-09-10T08:31:30.943987Z [HoneyPotSSHTransport,23,192.168.72.11] Initialized emulated server as architecture: linux-x64-lsb
+2026-09-10T08:31:30.948688Z [HoneyPotSSHTransport,23,192.168.72.11] channel open
+2026-09-10T08:31:31.169806Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,192.168.72.11] Handling pty request: b'xterm-256color' (47, 132, 0, 0)
+2026-09-10T08:31:31.170132Z [ssh,f7087a55a1c8,192.168.72.11] Terminal Size: 132 47
+2026-09-10T08:31:31.170411Z [ssh,f7087a55a1c8,192.168.72.11] request_env: COLORTERM=truecolor
+2026-09-10T08:31:31.170583Z [ssh,f7087a55a1c8,192.168.72.11] request_env: LANG=en_US.UTF-8
+2026-09-10T08:31:31.170706Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,23,192.168.72.11] Getting shell
+2026-09-10T08:31:36.952041Z [ssh,f7087a55a1c8,192.168.72.11] CMD: exit
+2026-09-10T08:31:36.955324Z [HoneyPotSSHTransport,23,192.168.72.11] Command found: exit 
+2026-09-10T08:31:36.955790Z [HoneyPotSSHTransport,23,192.168.72.11] exitCode: 0
+2026-09-10T08:31:36.956481Z [ssh,f7087a55a1c8,192.168.72.11] Closing TTY Log: var/lib/cowrie/tty/2638f1c1c2018567a46a4cae049dd90db2d468e1538d60d328f2707d071f73c5 after 5785 milliseconds
+2026-09-10T08:31:36.956593Z [HoneyPotSSHTransport,23,192.168.72.11] sending close 0
+2026-09-10T08:31:36.958553Z [HoneyPotSSHTransport,23,192.168.72.11] remote close
+2026-09-10T08:31:36.958790Z [HoneyPotSSHTransport,23,192.168.72.11] Got remote error, code 11 reason: b'disconnected by user'
+2026-09-10T08:31:36.959064Z [HoneyPotSSHTransport,23,192.168.72.11] avatar admin logging out
+2026-09-10T08:31:36.959187Z [HoneyPotSSHTransport,23,192.168.72.11] connection lost
+2026-09-10T08:31:36.959438Z [ssh,f7087a55a1c8,192.168.72.11] Connection lost after 23474 milliseconds
+2026-09-10T08:31:44.504621Z [ssh,cb4424bd59b9,192.168.72.11] New connection: 192.168.72.11:34156 (192.168.72.10:2222) [session: cb4424bd59b9]
+2026-09-10T08:31:44.504941Z [ssh,cb4424bd59b9,192.168.72.11] Remote SSH version: SSH-2.0-OpenSSH_10.3p1 Debian-4
+2026-09-10T08:31:44.506757Z [ssh,cb4424bd59b9,192.168.72.11] SSH client hassh fingerprint: eeca2460550b9ded084ecf2f70a75356
+2026-09-10T08:31:48.067904Z [ssh,cb4424bd59b9,192.168.72.11] login attempt [test/12345] succeeded
+2026-09-10T08:31:48.068116Z [HoneyPotSSHTransport,24,192.168.72.11] Initialized emulated server as architecture: linux-x64-lsb
+2026-09-10T08:31:48.070195Z [HoneyPotSSHTransport,24,192.168.72.11] channel open
+2026-09-10T08:31:48.255887Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,24,192.168.72.11] Handling pty request: b'xterm-256color' (47, 132, 0, 0)
+2026-09-10T08:31:48.256322Z [ssh,cb4424bd59b9,192.168.72.11] Terminal Size: 132 47
+2026-09-10T08:31:48.256719Z [ssh,cb4424bd59b9,192.168.72.11] request_env: COLORTERM=truecolor
+2026-09-10T08:31:48.257191Z [ssh,cb4424bd59b9,192.168.72.11] request_env: LANG=en_US.UTF-8
+2026-09-10T08:31:48.257443Z [SSHChannel session (0) on SSHService b'ssh-connection' on HoneyPotSSHTransport,24,192.168.72.11] Getting shell
+2026-09-10T08:31:50.390057Z [ssh,cb4424bd59b9,192.168.72.11] CMD: ls
+2026-09-10T08:31:50.391704Z [HoneyPotSSHTransport,24,192.168.72.11] Command found: ls 
+2026-09-10T08:31:52.837636Z [ssh,cb4424bd59b9,192.168.72.11] CMD: exit
+2026-09-10T08:31:52.839396Z [HoneyPotSSHTransport,24,192.168.72.11] Command found: exit 
+2026-09-10T08:31:52.839806Z [HoneyPotSSHTransport,24,192.168.72.11] exitCode: 0
+2026-09-10T08:31:52.841436Z [ssh,cb4424bd59b9,192.168.72.11] Closing TTY Log: var/lib/cowrie/tty/b373fccc4859a5456245f7245d53feb68592a9179d484bf04fe49865919c9b05 after 4584 milliseconds
+2026-09-10T08:31:52.841601Z [HoneyPotSSHTransport,24,192.168.72.11] sending close 0
+2026-09-10T08:31:52.846403Z [HoneyPotSSHTransport,24,192.168.72.11] remote close
+2026-09-10T08:31:52.846676Z [HoneyPotSSHTransport,24,192.168.72.11] Got remote error, code 11 reason: b'disconnected by user'
+2026-09-10T08:31:52.846987Z [HoneyPotSSHTransport,24,192.168.72.11] avatar test logging out
+2026-09-10T08:31:52.847152Z [HoneyPotSSHTransport,24,192.168.72.11] connection lost
+2026-09-10T08:31:52.847490Z [ssh,cb4424bd59b9,192.168.72.11] Connection lost after 8343 milliseconds
+2026-09-10T08:33:30.409545Z [ssh,276ab6cfec5b,192.168.72.11] New connection: 192.168.72.11:39948 (192.168.72.10:2222) [session: 276ab6cfec5b]
+2026-09-10T08:33:30.409971Z [ssh,276ab6cfec5b,192.168.72.11] Remote SSH version: SSH-2.0-libssh_0.12.0
+2026-09-10T08:33:30.417772Z [ssh,276ab6cfec5b,192.168.72.11] SSH client hassh fingerprint: 015322ee8471fa8338c558a918183b11
+2026-09-10T08:33:31.005304Z [HoneyPotSSHTransport,25,192.168.72.11] Got remote error, code 11 reason: b'Bye Bye'
+2026-09-10T08:33:31.005707Z [HoneyPotSSHTransport,25,192.168.72.11] connection lost
+2026-09-10T08:33:31.005972Z [ssh,276ab6cfec5b,192.168.72.11] Connection lost after 596 milliseconds
+2026-09-10T08:33:31.246860Z [ssh,d6cf2ba28f30,192.168.72.11] New connection: 192.168.72.11:39960 (192.168.72.10:2222) [session: d6cf2ba28f30]
+2026-09-10T08:33:31.247239Z [ssh,e4e85ee11bcb,192.168.72.11] New connection: 192.168.72.11:39958 (192.168.72.10:2222) [session: e4e85ee11bcb]
+2026-09-10T08:33:31.247606Z [ssh,362d16228513,192.168.72.11] New connection: 192.168.72.11:39982 (192.168.72.10:2222) [session: 362d16228513]
+2026-09-10T08:33:31.248019Z [ssh,d6cf2ba28f30,192.168.72.11] Remote SSH version: SSH-2.0-libssh_0.12.0
+2026-09-10T08:33:31.248379Z [ssh,e4e85ee11bcb,192.168.72.11] Remote SSH version: SSH-2.0-libssh_0.12.0
+2026-09-10T08:33:31.248835Z [ssh,362d16228513,192.168.72.11] Remote SSH version: SSH-2.0-libssh_0.12.0
+2026-09-10T08:33:31.249854Z [ssh,d6cf2ba28f30,192.168.72.11] SSH client hassh fingerprint: 015322ee8471fa8338c558a918183b11
+2026-09-10T08:33:31.250636Z [ssh,e4e85ee11bcb,192.168.72.11] SSH client hassh fingerprint: 015322ee8471fa8338c558a918183b11
+2026-09-10T08:33:31.251616Z [ssh,362d16228513,192.168.72.11] SSH client hassh fingerprint: 015322ee8471fa8338c558a918183b11
+2026-09-10T08:33:31.256164Z [ssh,c776b22e54a4,192.168.72.11] New connection: 192.168.72.11:39992 (192.168.72.10:2222) [session: c776b22e54a4]
+2026-09-10T08:33:31.256485Z [ssh,c776b22e54a4,192.168.72.11] Remote SSH version: SSH-2.0-libssh_0.12.0
+2026-09-10T08:33:31.258358Z [ssh,c776b22e54a4,192.168.72.11] SSH client hassh fingerprint: 015322ee8471fa8338c558a918183b11
+2026-09-10T08:33:33.291576Z [ssh,d6cf2ba28f30,192.168.72.11] login attempt [root/123456789] succeeded
+2026-09-10T08:33:33.291729Z [HoneyPotSSHTransport,26,192.168.72.11] Initialized emulated server as architecture: linux-x64-lsb
+2026-09-10T08:33:33.293668Z [ssh,362d16228513,192.168.72.11] login attempt [root/12345] succeeded
+2026-09-10T08:33:33.293844Z [HoneyPotSSHTransport,28,192.168.72.11] Initialized emulated server as architecture: linux-x64-lsb
+2026-09-10T08:33:33.298003Z [ssh,c776b22e54a4,192.168.72.11] login attempt [root/password] succeeded
+2026-09-10T08:33:33.298166Z [HoneyPotSSHTransport,29,192.168.72.11] Initialized emulated server as architecture: linux-x64-lsb
+2026-09-10T08:33:33.301576Z [HoneyPotSSHTransport,28,192.168.72.11] avatar root logging out
+2026-09-10T08:33:33.302038Z [HoneyPotSSHTransport,28,192.168.72.11] connection lost
+2026-09-10T08:33:33.302781Z [ssh,362d16228513,192.168.72.11] Connection lost after 2055 milliseconds
+2026-09-10T08:33:33.303404Z [HoneyPotSSHTransport,27,192.168.72.11] connection lost
+2026-09-10T08:33:33.304147Z [ssh,e4e85ee11bcb,192.168.72.11] Connection lost after 2057 milliseconds
+2026-09-10T08:33:33.305491Z [HoneyPotSSHTransport,26,192.168.72.11] avatar root logging out
+2026-09-10T08:33:33.305642Z [HoneyPotSSHTransport,26,192.168.72.11] connection lost
+2026-09-10T08:33:33.306958Z [ssh,d6cf2ba28f30,192.168.72.11] Connection lost after 2060 milliseconds
+2026-09-10T08:33:33.307352Z [HoneyPotSSHTransport,29,192.168.72.11] avatar root logging out
+2026-09-10T08:33:33.307481Z [HoneyPotSSHTransport,29,192.168.72.11] connection lost
+2026-09-10T08:33:33.307628Z [ssh,c776b22e54a4,192.168.72.11] Connection lost after 2051 milliseconds
